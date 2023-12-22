@@ -1,0 +1,32 @@
+@import 'style/normalize.css';
+@import 'style/fonts';
+@import 'style/var';
+@import 'style/style';
+
+.task-1 {
+    margin: 30px;
+
+    .input-form {
+        display: flex;
+        width: 30%;
+        column-gap: 10px;
+
+        .input-text {
+            display: flex;
+            flex-direction: column;
+
+            #input {
+                margin-top: 5px;
+                border-radius: 7px;
+                border: 1px solid;
+            }
+        }
+    }
+
+    .btn {
+        align-self: flex-end;
+        background-color: rgba(139, 214, 208, 0.867);
+        border-radius: 7px;
+        border: 1px solid;
+    }
+}
